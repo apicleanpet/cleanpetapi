@@ -12,7 +12,7 @@ const app = express()
 app.use(cors({
     origin: [
       'http://localhost:3000',
-      'https://cleanpetrosario.com/'
+      'https://cleanpetrosario.com'
     ]
   }));
 app.use(express.json())
